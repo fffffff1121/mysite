@@ -1,0 +1,145 @@
+body{
+	font-family: 'Anton' , sans-serif;
+	margin:0;
+	padding:0;
+	background: grey;
+}
+.HomeA{
+color:black;
+margin-right:30px;
+margin-top:16px;
+padding:0;
+text-decoration:none ;
+text-transform:uppercase ;
+font-size:36px;
+float:right;
+
+}
+.HomeA:hover{
+
+	color:orange;
+}
+.HomeLogo{
+	font-size: 36px;
+	float:left;
+	color:black;
+	margin-left:30px;
+	margin-top:16px;
+}
+.HomePage{
+height: 931px;
+background: rgb(0,104,255);
+width: 1700px;
+margin:auto;
+}
+.HomePageSecond{
+height: 870px;
+background: orange;
+width: 1700px;
+margin:auto;
+}
+.HomeFooter{
+height: 60px;
+background: #4D4D4D;
+width: auto;
+margin:auto;
+}
+.HomeUl{
+	margin:0;
+}
+.HomeLi{
+	list-style: none;
+}
+.HomeP{
+	text-align:center;
+	color:black;
+	font-size:23px;
+	padding: 35px;
+}
+.HomeDivFirst{
+	height: 130px;
+}
+.HomeDivSecond{
+	margin:auto;
+	width: 1200px;
+	background: orange;
+	border-radius:10px;
+}
+.LogoHomePage{
+	width: 200px;
+	height: 200px;
+
+}
+.HomeSocialButtons{
+    width: 1199px;
+    height: 200px;
+    margin:auto;
+
+}
+.HomeDivLogo{
+	 background: orange;
+	 float:left;
+     border-radius: 20px;
+}
+.HomeDivLogo:nth-child(2){
+margin-left:25%;
+} 
+.HomeDivLogo:nth-child(3){
+float:right;
+} 
+.HomeANEXT{
+color:black;
+margin-right:30px;
+margin-top:16px;
+padding:0;
+text-decoration:none ;
+text-transform:uppercase ;
+font-size:36px;
+float:right;
+}
+.HomeANEXT:hover{
+	color:orange;
+}
+.h1Home{
+text-align: center;
+color:black;
+font-size:36px;
+padding-top:25px;
+margin-bottom: 15px;
+margin:0;
+}
+.pHome{
+text-align: center;
+color:black;
+font-size:26px;
+padding-top:15px;
+margin-bottom: 15px;
+margin:0;
+}
+.HomePagePText{
+	width: 600px;
+	background: rgb(0,104,255);
+	float:left;
+	margin-left:150px;
+	margin-top:20px;
+	border-radius:15px;
+}
+.HomePagePTextTwo{
+	float:right;
+	margin-right:150px;
+	margin-top:20px;
+	width: 600px;
+	background: rgb(0,104,255);	
+	border-radius:15px;
+}
+.HomePagePTexts{
+	font-size: 22px;
+	padding:10px;
+}
+
+.H1Error{
+	text-transform: uppercase;
+	font-size: 56px;
+	text-align:center;
+	padding-top:20%;
+}

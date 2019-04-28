@@ -28,6 +28,18 @@ require("../MysqliConnect/mysqli_con.php");
 	 	 </nav>
         </div>
 
+        <?php 
+        
+        $data = $_POST;
+        if(isset($data['login']) && isset($data['pass']) && $data['pass'] == $data['passTwo'] ){
+                $login = $data["login"];
+                $pass = md5($data["pass"]);
+                $connect = "INSERT INTO users(login,password) VALUES ('$login','$pass')";
+                mysqli_query($con , $connect);
+        }
+
+         ?>
+
         <h1 class="h1Login">Register</h1>
         <div class="centerLogin">
         <form action="register.php" method="POST">
